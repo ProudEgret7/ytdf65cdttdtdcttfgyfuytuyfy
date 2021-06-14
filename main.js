@@ -33,7 +33,7 @@ function gotPoses(results) {
 
 function draw() {
     background('#8CFFFF');
-    document.getElementById("square_side").innerHTML = "width and height of square will be = " + difference + "px";
+    document.getElementById("square_sides").innerHTML = "width and height of square will be = " + difference + "px";
     fill('#F90093');
     stroke('#F90093');
     square(noseX, noseY, difference);
